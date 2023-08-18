@@ -10,13 +10,13 @@ let Numberchecked = (Number) => {
 
 function ariacal (type,value1,value2){
     if(type == 'Ractangle'){
-        return `Ractangle Result = ${value1*value2}`
+        return `Ractangle Aria Result = ${value1*value2}`
     }else if(type == 'Squre'){
-        return `Squre Reslut = ${value1*value1}`
+        return `Squre Aria Reslut = ${value1*value1}`
     }else if(type == 'Tringle'){
-        return `Tringle Reslut = ${value1*value2*0.5}`
+        return `Tringle Aria Reslut = ${value1*value2*0.5}`
     }else if(type == 'Circel'){
-        return `Circel Reslut = ${value1*value1}`
+        return `Circel Aria Reslut = ${value1*value1}`
     }
 }
 
