@@ -2,7 +2,7 @@
 
 
 const main_form = document.getElementById('main_form')
-let Ractangle = main_form.querySelector(".Ractangle")
+let ractangle = main_form.querySelector(".Ractangle")
 let Squre = main_form.querySelector(".Squre")
 let Tringle = main_form.querySelector('.Tringle')
 let Redius = main_form.querySelector(".Redius")
@@ -10,14 +10,18 @@ let output = document.querySelector('.output')
 const select = main_form.querySelector('select[name="select"]')
 
 
+
 select.onchange = (e) =>{
+
     if(e.target.value == 'Ractangle'){
-        Ractangle.style.display = 'block'
+        ractangle.style.display = 'block'
+        
     }else{
-        Ractangle.style.display = 'none'
+        ractangle.style.display = 'none'
     }
     if(e.target.value == 'Squre'){
         Squre.style.display = 'block'
+        
     }else{
         Squre.style.display = 'none'
     }
@@ -36,7 +40,7 @@ select.onchange = (e) =>{
 main_form.addEventListener('submit',(event) => {
     event.preventDefault()
     if(select.value == 'Select'){
-        output.innerHTML = 'Aria type Ar Value Set Korun !'
+        output.innerHTML = 'Apni kiser  !'
         output.style.color = '#3c65de'
     }
 
