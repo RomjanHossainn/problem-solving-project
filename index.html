@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curency</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center my-5">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h2>Math Mathical Oparation</h2>
+          </div>
+          <div class="card-body">
+           <form id="main_form">
+           <div class="my-3">
+            <label for="">Select Aria Type</label>
+            <select name="select" class="form-select">
+              <option>Select</option>
+              <option value="Ractangle">Ractangle</option>
+              <option value="Squre">Squre</option>
+              <option value="Tringle">Tringle</option>
+              <option value="Circel">Circel</option>
+            </select>
+           </div>
+           
+            <div class="Ractangle d-flex gap-2">
+              <div class="my-3">
+                <label for="">Length</label>
+                <input type="text" style="width: 100%;"  name="length" id="">
+              </div>
+              <div class="my-3">
+                <label for="">Width</label>
+                <input type="text" style="width: 100%;" name="Width" id="">
+              </div>
+              
+            </div>
+            <div class="Squre ">
+              <div class="my-3">
+                <label for="">Bahu</label>
+                <input type="text" class="form-control" name="Bahu" id="">
+              </div>
+            </div>
+              <div class="Tringle ">
+                <div class="my-3">
+                  <label for="">Base</label>
+                  <input type="text" class="form-control" name="base" id="">
+                </div>
+                <div class="my-3">
+                  <label for="">Height</label>
+                  <input type="text" class="form-control" name="height" id="">
+                </div>
+              </div>
+              <div class="Redius">
+                <div class="my-3">
+                  <label for="">Redius</label>
+                  <input type="text" class="form-control" name="redius" id="">
+                </div>
+              </div>
+           <div class="submit">
+            <input type="submit" class="btn btn-primary w-100" value="Submit">
+           </div>
+           </form>
+          </div>
+          <div class="card-footer">
+            <h5 class="output"></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="function.js"></script>
+  <script src="Aria calculeto.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
